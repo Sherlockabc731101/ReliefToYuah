@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html#home" class="menu-link">Home</a></li>
+                <li class="menu-item"><a href="index.html#about" class="menu-link">About</a></li>
+                <li class="menu-item"><a href="index.html#relief-map" class="menu-link">Relief Map</a></li>
+                <li class="menu-item"><a href="chat.html" class="menu-link">Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="chat-container">
+        <div class="chat-messages" id="chatMessages">
+            <!-- Chat messages will be dynamically added here -->
+        </div>
+
+        <div class="chat-input-container">
+            <input type="text" id="chatInput" class="chat-input" placeholder="Type your message...">
+            <button class="send-btn" id="sendButton">Send</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Relief To Yuh. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
