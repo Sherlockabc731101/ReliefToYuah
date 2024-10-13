@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.city_icon{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 760;
+}
+
+.town_icon{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 460;
+}
+
+.bubble {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+/* Resources Styling */
+
+#general_resources{
+    position:relative;
+    margin-bottom: 6rem;
+}
+
+p{
+    color: rgb(85, 85, 85);
+}
+
+section {
+    padding-top: 4vh;
+    height: auto;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.past-jobs {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: left;
+}
+
+.job-location {
+    display: flex;
+    text-align: initial;
+    flex-direction:row;
+    align-items:center;
+    gap: 0.18rem;
+}
+
+.map-icon {
+    height:20px;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+.details-container .icon {
+    cursor: default;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#miamibanner {
+    width: 100%;
+    background-image: url(../images/miamibanner.png);
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+  }
+
+
+#tampabanner {
+    width: 100%;
+    background-image: url(../images/tampabanner.png);
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+  }
+
+#jacksonbanner {
+    width: 100%;
+    background-image: url(../images/jacksonbanner.png);
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+#pensacolabanner {
+    width: 100%;
+    background-image: url(../images/pensacolabanner.png);
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
